@@ -1,0 +1,35 @@
+[
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "RPS": 865.3,
+        "Medel_ms": 115.6,
+        "p50_ms": 101.9,
+        "p90_ms": 174.0,
+        "p95_ms": 182.9,
+        "p99_ms": 204.5,
+        "Max_ms": 219.8,
+        "Misslyckade": 0
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "RPS": 87.3,
+        "Medel_ms": 1152.3,
+        "p50_ms": 670.8,
+        "p90_ms": 2842.0,
+        "p95_ms": 3944.5,
+        "p99_ms": 5266.1,
+        "Max_ms": 6350.2,
+        "Misslyckade": 15
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "RPS": 892.0,
+        "Medel_ms": 112.1,
+        "p50_ms": 93.6,
+        "p90_ms": 179.9,
+        "p95_ms": 189.7,
+        "p99_ms": 211.8,
+        "Max_ms": 217.9,
+        "Misslyckade": 0
+    }
+]
