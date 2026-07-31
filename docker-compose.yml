@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  flask-service:
+    build:
+      context: ./Flask-Test1
+    container_name: benchmark_flask
+    network_mode: "host"   # Kör direkt mot Linux-datorns nätverkskort för minimal latens
+    restart: unless-stopped
+
+  django-service:
+    build:
+      context: ./Django-Test1
+    container_name: benchmark_django
+    network_mode: "host"
+    restart: unless-stopped
+
+  lightweight-service:
+    build:
+      context: ./LW-Test1
+    container_name: benchmark_lattvikt
+    network_mode: "host"
+    restart: unless-stopped
