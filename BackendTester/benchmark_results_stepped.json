@@ -1,0 +1,200 @@
+[
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 10,
+        "RPS": 231.5,
+        "Medel_ms": 39.8,
+        "p50_ms": 39.2,
+        "p95_ms": 48.5,
+        "p99_ms": 60.6,
+        "Fel": 0,
+        "WallTime_s": 8.64
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 50,
+        "RPS": 233.5,
+        "Medel_ms": 198.6,
+        "p50_ms": 202.6,
+        "p95_ms": 224.4,
+        "p99_ms": 234.3,
+        "Fel": 0,
+        "WallTime_s": 8.57
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 100,
+        "RPS": 238.7,
+        "Medel_ms": 375.9,
+        "p50_ms": 380.8,
+        "p95_ms": 443.4,
+        "p99_ms": 465.8,
+        "Fel": 0,
+        "WallTime_s": 8.38
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 250,
+        "RPS": 223.4,
+        "Medel_ms": 963.3,
+        "p50_ms": 944.7,
+        "p95_ms": 1177.6,
+        "p99_ms": 1223.4,
+        "Fel": 0,
+        "WallTime_s": 8.95
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 500,
+        "RPS": 210.8,
+        "Medel_ms": 1967.9,
+        "p50_ms": 1902.1,
+        "p95_ms": 2661.4,
+        "p99_ms": 2733.4,
+        "Fel": 0,
+        "WallTime_s": 9.49
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 1000,
+        "RPS": 190.5,
+        "Medel_ms": 4142.9,
+        "p50_ms": 4097.1,
+        "p95_ms": 5842.1,
+        "p99_ms": 6090.1,
+        "Fel": 0,
+        "WallTime_s": 10.5
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 10,
+        "RPS": 221.5,
+        "Medel_ms": 43.0,
+        "p50_ms": 42.1,
+        "p95_ms": 49.8,
+        "p99_ms": 61.8,
+        "Fel": 0,
+        "WallTime_s": 9.03
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 50,
+        "RPS": 212.7,
+        "Medel_ms": 230.2,
+        "p50_ms": 228.7,
+        "p95_ms": 259.6,
+        "p99_ms": 274.8,
+        "Fel": 0,
+        "WallTime_s": 9.4
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 100,
+        "RPS": 205.6,
+        "Medel_ms": 475.7,
+        "p50_ms": 480.6,
+        "p95_ms": 549.7,
+        "p99_ms": 578.4,
+        "Fel": 0,
+        "WallTime_s": 9.73
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 250,
+        "RPS": 188.8,
+        "Medel_ms": 1272.8,
+        "p50_ms": 1342.7,
+        "p95_ms": 1381.8,
+        "p99_ms": 1586.9,
+        "Fel": 0,
+        "WallTime_s": 10.59
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 500,
+        "RPS": 165.4,
+        "Medel_ms": 2794.9,
+        "p50_ms": 3172.7,
+        "p95_ms": 3266.2,
+        "p99_ms": 3655.0,
+        "Fel": 0,
+        "WallTime_s": 12.09
+    },
+    {
+        "Tj\u00e4nst": "Django",
+        "Concurrency": 1000,
+        "RPS": 89.8,
+        "Medel_ms": 4268.9,
+        "p50_ms": 4188.6,
+        "p95_ms": 6805.1,
+        "p99_ms": 7094.4,
+        "Fel": 834,
+        "WallTime_s": 12.98
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 10,
+        "RPS": 229.2,
+        "Medel_ms": 40.2,
+        "p50_ms": 39.5,
+        "p95_ms": 46.8,
+        "p99_ms": 58.2,
+        "Fel": 0,
+        "WallTime_s": 8.72
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 50,
+        "RPS": 239.6,
+        "Medel_ms": 185.1,
+        "p50_ms": 184.8,
+        "p95_ms": 212.3,
+        "p99_ms": 228.1,
+        "Fel": 0,
+        "WallTime_s": 8.35
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 100,
+        "RPS": 241.0,
+        "Medel_ms": 357.6,
+        "p50_ms": 360.1,
+        "p95_ms": 411.0,
+        "p99_ms": 437.4,
+        "Fel": 0,
+        "WallTime_s": 8.3
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 250,
+        "RPS": 188.6,
+        "Medel_ms": 990.8,
+        "p50_ms": 701.3,
+        "p95_ms": 1707.9,
+        "p99_ms": 1757.5,
+        "Fel": 0,
+        "WallTime_s": 10.6
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 500,
+        "RPS": 176.3,
+        "Medel_ms": 1967.3,
+        "p50_ms": 2263.2,
+        "p95_ms": 3644.1,
+        "p99_ms": 3737.7,
+        "Fel": 96,
+        "WallTime_s": 10.8
+    },
+    {
+        "Tj\u00e4nst": "L\u00e4ttvikt",
+        "Concurrency": 1000,
+        "RPS": 114.5,
+        "Medel_ms": 2260.2,
+        "p50_ms": 2182.9,
+        "p95_ms": 4420.7,
+        "p99_ms": 4532.3,
+        "Fel": 699,
+        "WallTime_s": 11.36
+    }
+]
