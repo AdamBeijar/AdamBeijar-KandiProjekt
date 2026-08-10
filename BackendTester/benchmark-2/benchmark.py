@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 
 # ================= CONFIGURATION =================
 SERVICES = {
-    "Flask (WSGI)": "http://localhost:5001/",
-    #"Django": "http://192.168.0.107:8081/",
-    #"Lättvikt": "http://192.168.0.107:8001/"
+    "Flask (WSGI)": "http://192.168.0.107:5001/",
+    "Django": "http://192.168.0.107:8081/",
+    "Lättvikt": "http://192.168.0.107:8001/"
     
 }
 
