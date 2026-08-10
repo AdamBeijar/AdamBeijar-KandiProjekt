@@ -1,0 +1,68 @@
+[
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 10,
+        "RPS": 35.9,
+        "Medel_ms": 275.7,
+        "p50_ms": 275.0,
+        "p95_ms": 299.1,
+        "p99_ms": 310.8,
+        "Fel": 0,
+        "WallTime_s": 55.72
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 50,
+        "RPS": 141.2,
+        "Medel_ms": 340.2,
+        "p50_ms": 326.6,
+        "p95_ms": 458.2,
+        "p99_ms": 537.5,
+        "Fel": 0,
+        "WallTime_s": 14.16
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 100,
+        "RPS": 161.3,
+        "Medel_ms": 575.8,
+        "p50_ms": 572.8,
+        "p95_ms": 704.6,
+        "p99_ms": 796.9,
+        "Fel": 0,
+        "WallTime_s": 12.4
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 250,
+        "RPS": 148.5,
+        "Medel_ms": 1530.5,
+        "p50_ms": 1565.2,
+        "p95_ms": 1757.1,
+        "p99_ms": 1833.4,
+        "Fel": 0,
+        "WallTime_s": 13.46
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 500,
+        "RPS": 137.9,
+        "Medel_ms": 3195.0,
+        "p50_ms": 3369.4,
+        "p95_ms": 3775.6,
+        "p99_ms": 3859.3,
+        "Fel": 0,
+        "WallTime_s": 14.51
+    },
+    {
+        "Tj\u00e4nst": "Flask (WSGI)",
+        "Concurrency": 1000,
+        "RPS": 108.6,
+        "Medel_ms": 6571.9,
+        "p50_ms": 6366.2,
+        "p95_ms": 9428.5,
+        "p99_ms": 9717.7,
+        "Fel": 239,
+        "WallTime_s": 16.21
+    }
+]

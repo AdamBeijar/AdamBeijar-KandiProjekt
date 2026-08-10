@@ -56,10 +56,13 @@ class Server:
                     print(f"An error occurred: {e}")
                     traceback.print_exc()
         except KeyboardInterrupt:
+            print("\nStopping server...")
             self.stop()
         except Exception as e:
             print("An error occurred: ")
             traceback.print_exc()
+        finally:
+            client_socket.close()
 
     def stop(self):
         self.server_socket.close()
@@ -196,4 +199,4 @@ class Server:
         """Handle the response to the incoming request."""
         response = self.handle_path(request.path, request) # type: ignore
         print(self.build_response(response.status, response.status_text, response.data, addr, request))
-        return response.data    
+        return response.data

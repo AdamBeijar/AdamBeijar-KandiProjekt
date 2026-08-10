@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>%% title %%</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Example Webpage</h1>
+    </header>
+
+    <main>
+        this is content
+        %%{ for item in content 
+            <p>%% item %%</p>
+        }%%
+
+        this is content 2
+        %%{ for item in content 
+            <p>%% item %%</p>
+        }%%
+
+        this is names
+        %%{ for hhh in names 
+            <p>%% hhh %%</p>
+        }%%
+    </main>
+
+    <footer>
+        <p>This is an example page made by %% name %%
+    </footer>
+</body>
+</html>
