@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 
-WORKDIR /app/test1
+WORKDIR /app/test2
 
 CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8081", "test1.wsgi:application", "--access-logfile", "/dev/null"]
