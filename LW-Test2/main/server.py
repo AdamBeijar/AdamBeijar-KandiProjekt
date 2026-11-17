@@ -30,7 +30,7 @@ class Server:
 
     def start(self):
         """Start the server and listen for incoming connections."""
-        self.server_socket.listen()
+        self.server_socket.listen(2048)
         self.server_socket.settimeout(1.0)  # Set a timeout for the accept() call
         self.welcome_message()
         try:
@@ -50,7 +50,7 @@ class Server:
                     if not request:
                         continue
                     response = self.handle_response(request, addr)
-                    client_socket.send(response.encode())
+                    client_socket.sendall(response.encode())
                     client_socket.close()
                 except Exception as e:
                     print(f"An error occurred: {e}")
@@ -198,5 +198,6 @@ class Server:
     def handle_response(self, request, addr) -> str: # type: ignore
         """Handle the response to the incoming request."""
         response = self.handle_path(request.path, request) # type: ignore
-        print(self.build_response(response.status, response.status_text, response.data, addr, request))
+        if self.development:
+            print(self.build_response(response.status, response.status_text, response.data, addr, request))
         return response.data
