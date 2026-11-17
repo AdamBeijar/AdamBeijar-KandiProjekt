@@ -6,13 +6,11 @@ import json
 @csrf_exempt
 def index(request):
     if request.method == 'POST':
-        # Hantera POST-förfrågan
         data = request.body.decode('utf-8')
 
         if not data or 'items' not in data:
             return JsonResponse({'error': 'Ogiltig indata, "items" saknas'}, status=400)
 
-        # Gör om data till JSON
         items = json.loads(data).get('items', [])
 
         sorted_items = sorted(items, key=lambda x: x.get('value', 0), reverse=True)

@@ -1,0 +1,253 @@
+[
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 10,
+        "RPS": 1157.3,
+        "Medel_ms": 6.8,
+        "p50_ms": 5.5,
+        "p95_ms": 12.9,
+        "p99_ms": 21.6,
+        "Fel": 30303,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 30303
+        },
+        "WallTime_s": 43.21
+    },
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 50,
+        "RPS": 1029.2,
+        "Medel_ms": 179.6,
+        "p50_ms": 179.9,
+        "p95_ms": 231.7,
+        "p99_ms": 243.1,
+        "Fel": 49388,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 49388
+        },
+        "WallTime_s": 48.58
+    },
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 100,
+        "RPS": 1580.3,
+        "Medel_ms": 33.1,
+        "p50_ms": 24.6,
+        "p95_ms": 50.7,
+        "p99_ms": 360.7,
+        "Fel": 26456,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 26456
+        },
+        "WallTime_s": 31.64
+    },
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 250,
+        "RPS": 8194.7,
+        "Medel_ms": 30.4,
+        "p50_ms": 27.4,
+        "p95_ms": 52.1,
+        "p99_ms": 73.8,
+        "Fel": 4,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 4
+        },
+        "WallTime_s": 6.1
+    },
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 500,
+        "RPS": 10179.5,
+        "Medel_ms": 48.8,
+        "p50_ms": 48.0,
+        "p95_ms": 62.8,
+        "p99_ms": 67.8,
+        "Fel": 4,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 4
+        },
+        "WallTime_s": 4.91
+    },
+    {
+        "Tjänst": "Flask (WSGI)",
+        "Concurrency": 1000,
+        "RPS": 8195.5,
+        "Medel_ms": 120.5,
+        "p50_ms": 119.4,
+        "p95_ms": 153.4,
+        "p99_ms": 163.3,
+        "Fel": 4,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 4
+        },
+        "WallTime_s": 6.1
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 10,
+        "RPS": 1071.7,
+        "Medel_ms": 7.8,
+        "p50_ms": 7.8,
+        "p95_ms": 13.4,
+        "p99_ms": 21.5,
+        "Fel": 37710,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 37710
+        },
+        "WallTime_s": 46.66
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 50,
+        "RPS": 1082.2,
+        "Medel_ms": 158.2,
+        "p50_ms": 170.6,
+        "p95_ms": 218.7,
+        "p99_ms": 235.2,
+        "Fel": 44345,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 44345
+        },
+        "WallTime_s": 46.2
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 100,
+        "RPS": 1343.5,
+        "Medel_ms": 110.7,
+        "p50_ms": 68.7,
+        "p95_ms": 411.7,
+        "p99_ms": 543.1,
+        "Fel": 20034,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 20034
+        },
+        "WallTime_s": 37.22
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 250,
+        "RPS": 1071.4,
+        "Medel_ms": 2264.4,
+        "p50_ms": 3045.1,
+        "p95_ms": 4191.4,
+        "p99_ms": 4323.0,
+        "Fel": 46081,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 46081
+        },
+        "WallTime_s": 46.67
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 500,
+        "RPS": 1132.6,
+        "Medel_ms": 876.9,
+        "p50_ms": 803.8,
+        "p95_ms": 2197.7,
+        "p99_ms": 4661.8,
+        "Fel": 42428,
+        "Feltyper": {
+            "An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full. (os error 10055)": 1,
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 42329,
+            "timeout": 98
+        },
+        "WallTime_s": 44.15
+    },
+    {
+        "Tjänst": "Django",
+        "Concurrency": 1000,
+        "RPS": 1387.6,
+        "Medel_ms": 1132.0,
+        "p50_ms": 727.5,
+        "p95_ms": 3257.4,
+        "p99_ms": 4846.1,
+        "Fel": 25668,
+        "Feltyper": {
+            "Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)": 24541,
+            "timeout": 1127
+        },
+        "WallTime_s": 36.03
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 10,
+        "RPS": 945.2,
+        "Medel_ms": 10.6,
+        "p50_ms": 11.9,
+        "p95_ms": 15.7,
+        "p99_ms": 19.4,
+        "Fel": 0,
+        "Feltyper": {},
+        "WallTime_s": 52.9
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 50,
+        "RPS": 3183.8,
+        "Medel_ms": 15.7,
+        "p50_ms": 14.8,
+        "p95_ms": 25.1,
+        "p99_ms": 31.2,
+        "Fel": 0,
+        "Feltyper": {},
+        "WallTime_s": 15.7
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 100,
+        "RPS": 4336.2,
+        "Medel_ms": 23.0,
+        "p50_ms": 23.3,
+        "p95_ms": 41.0,
+        "p99_ms": 52.6,
+        "Fel": 1,
+        "Feltyper": {
+            "An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full. (os error 10055)": 1
+        },
+        "WallTime_s": 11.53
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 250,
+        "RPS": 5639.9,
+        "Medel_ms": 40.3,
+        "p50_ms": 19.0,
+        "p95_ms": 55.6,
+        "p99_ms": 1028.1,
+        "Fel": 3,
+        "Feltyper": {
+            "timeout": 3
+        },
+        "WallTime_s": 8.87
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 500,
+        "RPS": 5186.6,
+        "Medel_ms": 74.6,
+        "p50_ms": 21.0,
+        "p95_ms": 80.2,
+        "p99_ms": 1059.2,
+        "Fel": 63,
+        "Feltyper": {
+            "timeout": 63
+        },
+        "WallTime_s": 9.64
+    },
+    {
+        "Tjänst": "Lättvikt",
+        "Concurrency": 1000,
+        "RPS": 7687.6,
+        "Medel_ms": 91.5,
+        "p50_ms": 12.3,
+        "p95_ms": 1003.1,
+        "p99_ms": 1536.8,
+        "Fel": 124,
+        "Feltyper": {
+            "timeout": 124
+        },
+        "WallTime_s": 6.5
+    }
+]
