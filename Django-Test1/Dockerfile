@@ -9,4 +9,4 @@ COPY . /app/
 
 WORKDIR /app/test1
 
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8088", "test1.wsgi:application", "--access-logfile", "/dev/null"]
+CMD ["gunicorn", "-w", "17", "-b", "0.0.0.0:8088", "test1.wsgi:application", "--access-logfile", "/dev/null"]
