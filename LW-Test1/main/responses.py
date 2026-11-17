@@ -34,7 +34,6 @@ class JsonResponse(Response):
             "Connection: close\r\n\r\n"
             f"{json.dumps(data)}"
         )
-        self.data += json.dumps(data)
 
 class HtmlResponse(Response):
     """A response object that returns an HTML response.
