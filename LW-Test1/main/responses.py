@@ -27,8 +27,13 @@ class JsonResponse(Response):
     def __init__(self, data, status=200):
         super().__init__(status, data)
         self.headers = {"Content-Type": "application/json"}
-        self.data = f"HTTP/1.1 {self.status}\nContent-Type: application/json \n\n"
-        self.data += json.dumps(data)
+        self.data = (
+            f"HTTP/1.1 {self.status} {self.status_text}\r\n"
+            "Content-Type: application/json \r\n"
+            f"Content-Length: {len(json.dumps(data))}\r\n"
+            "Connection: close\r\n\r\n"
+            f"{json.dumps(data)}"
+        )
 
 class HtmlResponse(Response):
     """A response object that returns an HTML response.
@@ -38,7 +43,7 @@ class HtmlResponse(Response):
     def __init__(self, data, status=200, *args, **kwargs):
         super().__init__(status, data)
         self.headers = {"Content-Type": "text/html"}
-        self.data = f"HTTP/1.1 {self.status}\nContent-Type: text/html"
+        self.data = f"HTTP/1.1 {self.status} {self.status_text}\r\nContent-Type: text/html\r\n"
         self.calledFrom = "/".join(traceback.extract_stack()[-2].filename.split("/")[:-1:]) + "/templates/"
         if (htmlFile := self.isTemplate(data)):
             with open(htmlFile, "r") as f:
